@@ -4,14 +4,25 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class="card-background-page">
+
+  <ion-col col-6>
+    <ion-card (click)="gotoPage('personality-test')">
+      <ion-icon class="card-title-icon" name="man"></ion-icon>
+      <div class="card-title">Personality test</div>
+      <div class="card-subtitle">50 Questions</div>
+      <ion-icon class="card-enter-icon" name="arrow-forward"></ion-icon>
+
+    </ion-card>
+  </ion-col>
+
+  <ion-col col-6>
+    <ion-card (click)="gotoPage('career-test')">
+      <ion-icon class="card-title-icon" name="school"></ion-icon>
+      <div class="card-title">Career test</div>
+      <div class="card-subtitle">34 Questions</div>
+      <ion-icon class="card-enter-icon" name="arrow-forward"></ion-icon>
+    </ion-card>
+  </ion-col>
+
 </ion-content>

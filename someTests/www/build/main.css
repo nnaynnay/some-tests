@@ -26809,3 +26809,41 @@ ion-navbar.toolbar {
     padding-top: calc(16px + 20px);
   }
 }
+
+.card-background-page ion-card {
+  position: relative;
+  text-align: center;
+  height: 240px;
+}
+
+.card-background-page ion-icon.card-title-icon {
+  font-size: 50px;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  left: 0;
+}
+
+.card-background-page ion-icon.card-enter-icon {
+  font-size: 50px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.card-background-page .card-title {
+  position: absolute;
+  top: 45%;
+  font-size: 2.0em;
+  width: 100%;
+  font-weight: bold;
+  color: #222222;
+}
+
+.card-background-page .card-subtitle {
+  font-size: 1.0em;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  color: #222222;
+}
