@@ -3,7 +3,7 @@
   ion-card {
     position: relative;
     text-align: center;
-    height: 240px;
+    height: 200px;
   }
 
   ion-icon.card-title-icon {
@@ -17,8 +17,10 @@
   ion-icon.card-enter-icon {
     font-size: 50px;
     position: absolute;
-    bottom: 5%;
+    top: 50%;
     right: 5%;
+    margin-top: -25px;
+    color: color($colors, label);
   }
 
   .card-title {
@@ -33,7 +35,7 @@
   .card-subtitle {
     font-size: 1.0em;
     position: absolute;
-    top: 60%;
+    top: 65%;
     width: 100%;
     color: color($colors, app, contrast);
   }

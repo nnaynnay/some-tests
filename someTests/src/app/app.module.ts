@@ -4,6 +4,7 @@ import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { CareerTestPage } from '../pages/career-test/career-test';
+import { CareerTestResultPage } from '../pages/career-test-result/career-test-result';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -16,11 +17,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     CareerTestPage,
+    CareerTestResultPage,
     HomePage,
     TabsPage
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      iconMode: 'ios'
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -28,6 +32,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     CareerTestPage,
+    CareerTestResultPage,
     HomePage,
     TabsPage
   ],
