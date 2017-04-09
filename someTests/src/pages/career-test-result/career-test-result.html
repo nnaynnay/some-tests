@@ -15,51 +15,115 @@
 
 <ion-content padding>
 
-  <ng-container [ngSwitch]="result">
+  <ion-card [ngSwitch]="result">
 
     <ion-card-content *ngSwitchCase="0" [class.type-0]="result==0">
-      <ion-card-title>
-        DOER
-      </ion-card-title>
-      <p></p>
+      <div class="type-logo">
+        R
+      </div>
+      <div class="type-label">
+        Realistic
+      </div>
+      <p>You are a <strong>Doer</strong>.</p>
+      <p>
+        Doers tend to follow tradition, are practical with of common sense. Realistic in their approach, doers usually like to get things done.
+      </p>
+      <p>
+        <strong>Possible careers might be:</strong>
+        Hospitality, Tourism,Cookery, Land & Conservation, Horticulture, Mining & Resources, Automotive, Carpentry, Electrical, Engineering, Welding, Bricklaying, Building & Construction, Plumbing, Hairdressing, Beauty Therapy, Health & Safety.
+      </p>
     </ion-card-content>
 
     <ion-card-content *ngSwitchCase="1" [class.type-1]="result==1">
-      <ion-card-title>
-        THINKER
-      </ion-card-title>
-      <p></p>
+      <div class="type-logo">
+        I
+      </div>
+      <div class="type-label">
+        Investigator
+      </div>
+      <p>You are a <strong>Thinker</strong>.</p>
+      <p>
+        Thinkers tend to be independent and are often
+curious about how things work. They generally have an
+investigative approach to life.
+      </p>
+      <p>
+        <strong>Possible careers might be:</strong>
+        Business & Computing, Accounting, Land & Conservation Management, Horticulture, Mining & Resources, Automotive, Carpentry, Wine, Electrical, Engineering, Welding, Health & Safety, Applied Science, Surveying, Web Based Technologies.
+      </p>
     </ion-card-content>
 
-    <ion-card-content *ngSwitchCase="2" [class.type-1]="result==1">
-      <ion-card-title>
-        CREATOR
-      </ion-card-title>
-      <p></p>
+    <ion-card-content *ngSwitchCase="2" [class.type-2]="result==2">
+      <div class="type-logo">
+        A
+      </div>
+      <div class="type-label">
+        Artistic
+      </div>
+      <p>You are a <strong>Creator</strong>.</p>
+      <p>
+        Creators usually prefer to follow careers that
+are more independent and less structured and are generally
+thought of as being creative with an artistic approach to life.
+      </p>
+      <p>
+        <strong>Possible careers might be:</strong>
+        Hairdressing, Interior Design, Beauty Therapy, Art, Fashion Design, Building Design, Travel and Tourism, Furniture Making, Visual Arts.
+      </p>
     </ion-card-content>
 
-    <ion-card-content *ngSwitchCase="3" [class.type-1]="result==1">
-      <ion-card-title>
-        HELPER
-      </ion-card-title>
-      <p></p>
+    <ion-card-content *ngSwitchCase="3" [class.type-3]="result==3">
+      <div class="type-logo">
+        S
+      </div>
+      <div class="type-label">
+        Social
+      </div>
+      <p>You are a <strong>Helper</strong>.</p>
+      <p>
+        Helpers are usually people who are good listeners and have excellent communication skills. They are generally socially minded and love to help others.
+      </p>
+      <p>
+        <strong>Possible careers might be:</strong>
+        Aged Care, Nursing, Child Care, Sport, Recreation and Fitness, Community Services, General Education, Youth Work, Disability Work, Education Support, Training and Assessment.
+      </p>
     </ion-card-content>
 
-    <ion-card-content *ngSwitchCase="4" [class.type-1]="result==1">
-      <ion-card-title>
-        PERSURADER
-      </ion-card-title>
-      <p></p>
+    <ion-card-content *ngSwitchCase="4" [class.type-4]="result==4">
+      <div class="type-logo">
+        E
+      </div>
+      <div class="type-label">
+        Enterprising
+      </div>
+      <p>You are a <strong>Persuader</strong>.</p>
+      <p>
+        Persuaders enjoy meeting people and speaking in public. Enterprising individuals are usually thought of as being persuasive and take an innovative approach to life.
+      </p>
+      <p>
+        <strong>Possible careers might be:</strong>
+        Business Administration, Management, Computing, Fashion Design, Interior Design, Hospitality, Travel & Tourism, Hairdressing, Beauty Therapy, Retail, Building Design.
+      </p>
     </ion-card-content>
 
-    <ion-card-content *ngSwitchCase="5" [class.type-1]="result==1">
-      <ion-card-title>
-        ORGANISER
-      </ion-card-title>
-      <p></p>
+    <ion-card-content *ngSwitchCase="5" [class.type-5]="result==5">
+      <div class="type-logo">
+        C
+      </div>
+      <div class="type-label">
+        Conventional
+      </div>
+      <p>You are a <strong>Organiser</strong>.</p>
+      <p>
+        Organisers love organising things. They have good implementation and follow up skills and are structured and methodical in their approach to life.
+      </p>
+      <p>
+        <strong>Possible careers might be:</strong>
+        Business Admin, Computing, Accounting, Accounts Admin, Carpentry, Electrical, Mining and Resources, Laboratory Technician.
+      </p>
     </ion-card-content>
 
-  </ng-container>
+  </ion-card>
 
 
 </ion-content>

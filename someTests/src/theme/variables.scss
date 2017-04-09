@@ -30,6 +30,8 @@ $colors: (
   light:      #f4f4f4,
   dark:       #222,
 
+  tabs: white,
+
   button: #ffeb3b,
   slider: #ffeb3b,
   label: #757575,
@@ -41,6 +43,7 @@ $colors: (
 );
 
 $toolbar-background: color($colors, app, base);
+
 
 
 // App iOS Variables

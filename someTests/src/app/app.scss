@@ -23,3 +23,16 @@
 .align-center {
     text-align: center;
 }
+
+.content-md {
+    background-color: color($colors, app, base);
+}
+
+.card-md {
+    border: 5px solid color($colors, app, contrast);
+    margin: 10px 10px 20px 10px;
+}
+
+.card-header-md {
+    font-weight: 600;
+}

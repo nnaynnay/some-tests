@@ -205,8 +205,6 @@ export class CareerTestPage {
         }
     ];
 
-    maxScore = 5;
-
   constructor(public navCtrl: NavController) {
 
   }

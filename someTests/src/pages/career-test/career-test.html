@@ -1,6 +1,11 @@
 <ion-header>
   <ion-navbar>
     <ion-title>Career Test</ion-title>
+    <ion-buttons end>
+      <button ion-button  (click)="submitTest()">
+          DONE
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
@@ -22,6 +27,6 @@
     </ion-col>
 
     <p class="align-center">
-        <button ion-button color="button" block round (click)="submitTest()">DONE! SHOW ME THE RESULT!</button>
+        <button ion-button color="button" round (click)="submitTest()">DONE</button>
     </p>
 </ion-content>
