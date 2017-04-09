@@ -79004,9 +79004,7 @@ AppModule = __decorate([
                 iconMode: 'ios',
                 locationStrategy: 'path'
             }, {
-                links: [
-                    { component: __WEBPACK_IMPORTED_MODULE_6__pages_career_test_career_test__["a" /* CareerTestPage */], name: 'CareerTest', segment: 'career-test' }
-                ]
+                links: []
             })
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* IonicApp */]],

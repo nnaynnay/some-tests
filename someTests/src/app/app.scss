@@ -24,15 +24,15 @@
     text-align: center;
 }
 
-.content-md {
+ion-content.content {
     background-color: color($colors, app, base);
 }
 
-.card-md {
+ion-card {
     border: 5px solid color($colors, app, contrast);
     margin: 10px 10px 20px 10px;
 }
 
-.card-header-md {
+ion-card-header {
     font-weight: 600;
 }

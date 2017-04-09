@@ -35,7 +35,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     },
       {
         links: [
-          { component: CareerTestPage, name: 'CareerTest', segment: 'career-test' }
+          // { component: CareerTestPage, name: 'CareerTest', segment: 'career-test' }
         ]
       }
     )
