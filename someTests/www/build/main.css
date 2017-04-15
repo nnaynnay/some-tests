@@ -38517,3 +38517,23 @@ page-career-test-result .card p {
   color: #222222;
   text-transform: uppercase;
 }
+
+page-personality-test-result .chart {
+  padding: 50px 50px;
+}
+
+page-personality-test-result .card-ios p {
+  margin-bottom: 20px;
+}
+
+page-personality-test-result p.high {
+  color: #000;
+}
+
+page-personality-test-result p.average {
+  color: #666;
+}
+
+page-personality-test-result p.low {
+  color: #ccc;
+}

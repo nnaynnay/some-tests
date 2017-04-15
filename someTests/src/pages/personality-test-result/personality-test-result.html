@@ -7,12 +7,52 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>personality-test-result</ion-title>
+    <ion-title>Result</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+
+  <ion-card>
+    <ion-card-content>
+
+        <canvas
+        id="resultChart"
+        class="chart"
+        width="260"
+        height="260"></canvas>
+
+        <ng-container *ngFor="let item of score">
+          <p [ngClass]="item.subTotalRange">
+            <strong>{{personalityTestProvider.getCategoryDetail(item.id).name}}</strong>
+            {{personalityTestProvider.getCategoryDetail(item.id).description}}
+          </p>
+        </ng-container>
+<!--
+        <p>
+          <strong>Openness to Experience (O)</strong> is the personality trait of seeking new experience and intellectual pursuits. High scorers tend to be more imaginative and full of ideas. Low scorers are more down to earth.
+        </p>
+
+        <p>
+          <strong>Conscientiousness (C)</strong> is the personality trait of being honest and hardworking. High scorers have a high attention to detail and prefer routines. Low scorers tend to evaluate situations in shades of grey than in black or white.
+        </p>
+
+        <p>
+          <strong>Openness to Experience (O)</strong> is the personality trait of seeking new experience and intellectual pursuits. High scorers tend to be more imaginative and full of ideas. Low scorers are more down to earth.
+        </p>
+
+        <p>
+          <strong>Openness to Experience (O)</strong> is the personality trait of seeking new experience and intellectual pursuits. High scorers tend to be more imaginative and full of ideas. Low scorers are more down to earth.
+        </p>
+
+        <p>
+          <strong>Openness to Experience (O)</strong> is the personality trait of seeking new experience and intellectual pursuits. High scorers tend to be more imaginative and full of ideas. Low scorers are more down to earth.
+        </p>-->
+
+      </ion-card-content>
+  </ion-card>
+
 
 </ion-content>
